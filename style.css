@@ -1,29 +1,57 @@
-#myh1{
-    text-align: center;
-    font-size: 2em;
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #3498db, #c0392b);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
-#counterLabel{
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+#counterLabel {
+    font-size: 3em; /* Increase the font size */
+    color: #007bff;
+    margin-top: 20px;
     display: block;
-    text-align: center;
-    font-family: Helvetica;
-    font-size: 10em;
-
 }
 
-#btnContainer{
-    text-align: center;
+#btnContainer {
+    margin-top: 20px;
 }
 
-.button{
-padding: 10px 20px;
-font-size: 1.5em;
-color: white;
-background-color: hsl(214,100%,74%);
-border-radius: 5px;
-cursor: pointer;
-transition: background-color 0.25s;
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
-.button:hover
-{
-    background-color: hsl(214,100%,50%);
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#resetBtn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+#resetBtn:hover {
+    background-color: #d39e00;
 }
